@@ -1,9 +1,34 @@
 * {
     font-family: 'Times New Roman', serif;
-    background-color: rgb(244, 164, 178);
+    /* background-color: rgb(244, 164, 178); */
 }
 
 h1 {
     color: rgb(207, 8, 104);
+    font-size: 40px;
     font-weight: bold;
+    border-style: dotted;
+    border-width: 3px;
+    display: inline-block;
+    padding: 0px 8px;
+    margin: 0px auto 8px;
+}
+
+.content-background {
+    background: rgb(249, 186, 197);
+    padding: 16px;
+}
+
+.top-title {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: 8px auto;
+}
+
+.recipe-text {
+    margin: 8px 30px;
+    font-size: 25px;
 }
